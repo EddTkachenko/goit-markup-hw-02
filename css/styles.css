@@ -95,6 +95,10 @@ a {
 }
 
 /* ---- Team  ---- */
+.team {
+  background-color: #F4F4FD
+
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -102,6 +106,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+ text-transform: capitalize;
 }
 .team-name {
   font-weight: 500;
@@ -130,6 +135,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-text {
   font-weight: 400;
@@ -171,5 +177,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
 }
+:root {
+    --main-color: #F4F4FD;
+}
+
+
 .span {}
